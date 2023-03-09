@@ -1,0 +1,1 @@
+FROM ghost:5.37.0-alpine
