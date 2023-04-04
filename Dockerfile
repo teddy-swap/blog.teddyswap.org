@@ -1,4 +1,4 @@
-FROM ghost:5.37.0-alpine
+FROM ghost:5.41.0-alpine
 WORKDIR /var/lib/ghost
 RUN npm install ghost-azure-storage
 RUN mkdir -p content/adapters/storage
